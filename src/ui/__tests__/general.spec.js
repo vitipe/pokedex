@@ -11,5 +11,5 @@ test('actualiza el total de pokemones', () => {
   document.body.innerHTML = '<div id="total-pokemones"></div>';
   mostrarTotalPokemones(200);
   expect(document.querySelector(('#total-pokemones')).textContent)
-    .toContain('200');
+    .toContain('200')
 });
